@@ -1,0 +1,38 @@
+## How to Use
+
+### 1. Install Python
+
+If you don't already have Python installed:
+
+* Open the **Microsoft Store**.
+* Search for **Python 3**.
+* Install the latest version from the **Python Software Foundation**.
+
+### 2. Install the required package
+
+Open **Command Prompt** or **PowerShell** and run:
+
+```bash
+pip install pillow
+```
+
+### 3. Open the project folder
+
+Extract or download the project, then open the folder containing `main.py`.
+
+### 4. Open Command Prompt in the project folder
+
+* Hold **Shift** and **right-click** inside the project folder.
+* Select **Open in Terminal**, **Open PowerShell window here**, or **Open Command Window Here** (the option varies depending on your Windows version).
+
+### 5. Run the application
+
+In the terminal, enter:
+
+```bash
+python main.py
+```
+
+Press **Enter**.
+
+The application will open, allowing you to select one or more images. Cleaned copies will be saved in the same folder as the originals with the `_clean` suffix.
